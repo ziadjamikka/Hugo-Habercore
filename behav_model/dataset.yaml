@@ -1,0 +1,27 @@
+anchors:
+- - 33
+  - 51
+- - 36
+  - 69
+- - 64
+  - 35
+- - 32
+  - 34
+- - 121
+  - 54
+- - 55
+  - 125
+- - 85
+  - 44
+- - 49
+  - 90
+- - 47
+  - 33
+names:
+- eating
+- face_touching
+- smoking
+nc: 3
+test: G:\Ai\DEPI\final project\behav\data\test\images
+train: G:\Ai\DEPI\final project\behav\data\train\images
+val: G:\Ai\DEPI\final project\behav\data\valid\images
