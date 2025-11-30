@@ -1,0 +1,14 @@
+path: ./final_datasetB
+
+train: train/images
+val: val/images
+test: test/images
+
+nc: 5
+
+names:
+  0: clean_surface
+  1: dirty_surface
+  2: insect
+  3: Rats
+  4: trash
