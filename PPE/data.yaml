@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['apron', 'glove', 'hairnet']
+
+roboflow:
+  workspace: maria-maqk2
+  project: kitchen-c0nwl
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/maria-maqk2/kitchen-c0nwl/dataset/4
