@@ -2,7 +2,7 @@ from ultralytics import YOLO
 import os
 
 def main():
-    DATASET_PATH = r"data"
+    DATASET_PATH = r"G:\Ai\DEPI\final project\behav\data"
 
     DATA_YAML = os.path.join(DATASET_PATH, "dataset.yaml")
 

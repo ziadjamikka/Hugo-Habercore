@@ -1,9 +1,9 @@
 import os
 
-DATA_DIR = r"data"
+DATA_DIR = r"G:\Ai\DEPI\final project\behav\data"
 
-MIN_BOX_SIZE = 0.05  
-MAX_BOX_SIZE = 0.9   
+MIN_BOX_SIZE = 0.05 
+MAX_BOX_SIZE = 0.9  
 
 def adjust_bbox(xc, yc, w, h):
     w = max(w, MIN_BOX_SIZE)

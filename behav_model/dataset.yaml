@@ -1,27 +1,14 @@
-anchors:
-- - 33
-  - 51
-- - 36
-  - 69
-- - 64
-  - 35
-- - 32
-  - 34
-- - 121
-  - 54
-- - 55
-  - 125
-- - 85
-  - 44
-- - 49
-  - 90
-- - 47
-  - 33
-names:
-- eating
-- face_touching
-- smoking
+# Dataset Configuration for Behavior Detection
+# Updated for higher resolution training
+
+# Paths
+train: G:\data\train\images
+val: G:\data\valid\images
+test: G:\data\test\images
+
+# Classes
 nc: 3
-test: G:\Ai\DEPI\final project\behav\data\test\images
-train: G:\Ai\DEPI\final project\behav\data\train\images
-val: G:\Ai\DEPI\final project\behav\data\valid\images
+names: ['eating', 'face_touching', 'smoking']
+
+# Training settings (optional - can be overridden in training script)
+# These are optimized for small object detection

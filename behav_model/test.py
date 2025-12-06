@@ -2,9 +2,9 @@ import cv2
 from ultralytics import YOLO
 
 
-model = YOLO(r"weights\best.pt")
+model = YOLO(r"G:\data\professional_training_20251202_004345\behavior_detection_yolov8m\weights\last.pt")
 
-video_path = r"VideoProject1.mp4"
+video_path = r"G:\data\VideoProject1.mp4"
 cap = cv2.VideoCapture(video_path)
 
 if not cap.isOpened():
@@ -67,3 +67,9 @@ print(f"Face Touching: {action_counts['face_touching']}")
 print(f"Eating:        {action_counts['eating']}")
 print(f"Smoking:       {action_counts['smoking']}")
 print("==========================\n")
+
+
+
+
+
+
