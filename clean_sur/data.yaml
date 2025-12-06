@@ -1,14 +1,14 @@
-path: ./final_datasetB
+path: ./Database/
 
-train: train/images
-val: val/images
-test: test/images
+train: G:\Database\train\images
+val: G:\Database\val\images
+test: G:\Database\test\images
 
-nc: 5
+
+nc: 4
 
 names:
   0: clean_surface
   1: dirty_surface
-  2: insect
-  3: Rats
-  4: trash
+  2: Rats
+  3: Insects
